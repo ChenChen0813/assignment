@@ -42,7 +42,7 @@ class TestHJ212Parser(unittest.TestCase):
         self.assertTrue(self.parser.validate_crc(self.valid_msg))
 
     def test_validate_crc_bad(self):
-        # 篡改 CRC 值，校验应失败
+        # 篡改CRC值，校验应失败
         bad = self.valid_msg[:-6] + "0000\r\n"
         self.assertFalse(self.parser.validate_crc(bad))
 
