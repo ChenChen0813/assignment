@@ -40,4 +40,4 @@ class Course {
     public Building getBuilding() {
         return building;
     }
-}
+} 
