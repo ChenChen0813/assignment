@@ -3,7 +3,7 @@ import java.util.List;
 
 /**
  * B3 源代码字符串提取状态机实现
- * 对应状态：普通文本、字符串内、转义
+ * 对应状态：普通文本、字符串内、转义实现
  */
 public class StringExtractor {
     // 状态枚举
